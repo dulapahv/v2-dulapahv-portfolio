@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
-<body>
+<body style="background: var(--bs-dark);color: var(--bs-white);">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container"><a class="navbar-brand logo" href="#">Portfolio of Dulapah Vibulsanti</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -31,23 +32,46 @@
                 <div class="heading">
                     <h2>Contact me</h2>
                 </div>
-                <form>
-                    <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
-                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
-                    <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
-                </form>
             </div>
+            <section data-aos="fade-up" class="portfolio-block mobile-app gradient">
+                <div class="container align-items-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 col-lg-3 offset-lg-2">
+                            <div class="portfolio-phone-mockup">
+                                <div class="phone-screen" style="background-image:url(&quot;assets/img/tech/image7.png&quot;);"></div>
+                                <div class="home-button"></div>
+                            </div>
+                        </div>
+                        <div class="col-auto text-capitalize text-end">
+                            <h2><strong>Github&nbsp;&nbsp;</strong>|</h2>
+                            <h2><strong>Facebook&nbsp;&nbsp;</strong>|</h2>
+                            <h2><strong>Line&nbsp;&nbsp;</strong>|</h2>
+                            <h2><strong>Discord&nbsp;&nbsp;</strong>|</h2>
+                            <h2><strong>Steam&nbsp;&nbsp;</strong>|</h2>
+                            <h2><strong>Spotify&nbsp;&nbsp;</strong>|</h2>
+                        </div>
+                        <div class="col text-start">
+                            <h2><a href="https://github.com/DulapahV" style="color: var(--bs-white);">DulapahV</a>&nbsp;&amp;&nbsp;<a href="https://github.com/DulapahKMITL" style="color: var(--bs-white);">DulapahKMITL</a>&nbsp;</h2>
+                            <h2><a href="https://www.facebook.com/dulapah.vibulsanti.2003/" style="color: var(--bs-white);">Judge Dulapah Vibulsanti</a>&nbsp;</h2>
+                            <h2><a href="https://line.me/ti/p/P2BIj9WD1E#~" style="color: var(--bs-white);">judge_dulapah</a></h2>
+                            <h2><a href="https://discord.com/users/463287202005123072" style="color: var(--bs-white);">n0miya#9589</a></h2>
+                            <h2><a href="https://steamcommunity.com/id/n0miya/" style="color: var(--bs-white);">n0miya</a></h2>
+                            <h2><a href="https://open.spotify.com/user/31gh2o2edagehgvasq4ov3perrtm?si=b17fba3c6c174f3d" style="color: var(--bs-white);">Judge Dulapah Vibulsanti</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
+            <div class="links" style="color: var(--bs-white);"><a href="index.html" style="color: var(--bs-white);">Home</a><a href="cv.html" style="color: var(--bs-white);">My Background</a><a href="projects-grid-cards.html" style="color: var(--bs-white);">My Projects</a></div>
             <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
