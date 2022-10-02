@@ -1,77 +1,28 @@
 @import url("./themes/dark.css") (prefers-color-scheme: dark);
 @import url("./themes/light.css") (prefers-color-scheme: light);
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/Gothamlight.woff2") format("woff2"),
-		url("./fonts/Gotham/gothamlight-webfont.woff") format("woff");
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothamlightitalic-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothamlightitalic-webfont.woff") format("woff");
-	font-weight: 200;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothambook-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothambook-webfont.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothambookitalic-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothambookitalic-webfont.woff") format("woff");
-	font-weight: 400;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothammedium-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothammedium-webfont.woff") format("woff");
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothammediumitalic-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothammediumitalic-webfont.woff") format("woff");
-	font-weight: 600;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothambold-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothambold-webfont.woff") format("woff");
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Gotham";
-	src: url("./fonts/Gotham/gothambolditalic-webfont.woff2") format("woff2"),
-		url("./fonts/Gotham/gothambolditalic-webfont.woff") format("woff");
-	font-weight: 800;
-	font-style: italic;
-}
+@import url("./fonts.css");
 
 body,
 html {
 	margin: 0;
-	background-color: var(--bkg);
+	background-color: var(--gray);
 	color: var(--white);
 	font-family: Gotham, Sans-serif;
 	font-weight: 200;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 3px;
+}
+::-webkit-scrollbar-track-piece {
+	background-color: var(--darkgrey);
+}
+::-webkit-scrollbar-thumb {
+	height: 50px;
+	background-color: var(--grey);
+	border-radius: 3px;
 }
 
 .announcement {
@@ -110,4 +61,56 @@ html {
 	margin: min(4%, 2.5rem) min(5%, 8rem);
 	width: min(95%, 80rem);
 	margin: 1rem auto;
+}
+
+h1 {
+	color: var(--pink);
+	font-weight: 800;
+}
+
+.greeting-container * {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 1rem auto;
+}
+
+.greeting-container img {
+	margin: 3rem auto;
+	width: 20%;
+	border-radius: 100%;
+	border: solid 5px var(--yellow);
+}
+
+hr {
+	height: 3px;
+	border-radius: 8px;
+	border: none;
+	margin: 4rem auto;
+	background-color: var(--grey);
+}
+
+.about-me {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.experiences {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

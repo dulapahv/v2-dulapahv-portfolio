@@ -1,6 +1,6 @@
 :root {
-	--bkg: rgb(40, 44, 52);
-	--pink: rgb(255,84,138);
+	--gray: rgb(40, 44, 52);
+	--pink: #ff548a;
 	--blue: rgb(0,221,221);
 	--yellow: rgb(255,204,73);
 	--brown: rgb(133 77 14);
@@ -9,4 +9,6 @@
 	--green: rgb(0,187,53);
 	--darkblue: rgb(1,102,241);
 	--white: rgb(250,250,244);
+	--grey: rgb(187, 187, 187);
+	--darkgrey: rgb(102, 102, 102);
 }
