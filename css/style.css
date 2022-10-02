@@ -1,0 +1,113 @@
+@import url("./themes/dark.css") (prefers-color-scheme: dark);
+@import url("./themes/light.css") (prefers-color-scheme: light);
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/Gothamlight.woff2") format("woff2"),
+		url("./fonts/Gotham/gothamlight-webfont.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothamlightitalic-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothamlightitalic-webfont.woff") format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothambook-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothambook-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothambookitalic-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothambookitalic-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothammedium-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothammedium-webfont.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothammediumitalic-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothammediumitalic-webfont.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothambold-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothambold-webfont.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./fonts/Gotham/gothambolditalic-webfont.woff2") format("woff2"),
+		url("./fonts/Gotham/gothambolditalic-webfont.woff") format("woff");
+	font-weight: 800;
+	font-style: italic;
+}
+
+body,
+html {
+	margin: 0;
+	background-color: var(--bkg_0);
+	color: var(--text-color_0);
+	font-family: Gotham, Sans-serif;
+	font-weight: 200;
+}
+
+.announcement {
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	background: rgb(254 240 138);
+	color: rgb(133 77 14);
+	font-family: Gotham, Sans-serif;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	font-size: 0.8em;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	user-select: none;
+	background-color: var(--bkg_1);
+	font-family: Gotham, Sans-serif;
+	font-weight: 600;
+}
+.navbar div * {
+	display: inline-block;
+	padding: 1rem;
+}
+.navbar div a {
+	text-decoration: none;
+	color: var(--text-color_0);
+}
+
+.content-wrapper {
+	margin: min(4%, 2.5rem) min(5%, 8rem);
+	width: min(95%, 80rem);
+	margin: 1rem auto;
+}
