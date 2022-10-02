@@ -68,8 +68,8 @@
 body,
 html {
 	margin: 0;
-	background-color: var(--bkg_0);
-	color: var(--text-color_0);
+	background-color: var(--bkg);
+	color: var(--white);
 	font-family: Gotham, Sans-serif;
 	font-weight: 200;
 }
@@ -79,8 +79,8 @@ html {
 	height: 100%;
 	text-align: center;
 	width: 100%;
-	background: rgb(254 240 138);
-	color: rgb(133 77 14);
+	background: var(--yellow);
+	color: var(--brown);
 	font-family: Gotham, Sans-serif;
 	font-weight: 600;
 	margin: 0;
@@ -93,7 +93,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	user-select: none;
-	background-color: var(--bkg_1);
+	background-color: var(--blue);
 	font-family: Gotham, Sans-serif;
 	font-weight: 600;
 }
@@ -103,7 +103,7 @@ html {
 }
 .navbar div a {
 	text-decoration: none;
-	color: var(--text-color_0);
+	color: var(--white);
 }
 
 .content-wrapper {
