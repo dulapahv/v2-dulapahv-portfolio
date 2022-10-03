@@ -71,6 +71,10 @@ h1 {
 	font-weight: 800;
 }
 
+h2 {
+	color: var(--yellow);
+}
+
 .greeting-container * {
 	display: grid;
 	place-items: center;
@@ -90,12 +94,16 @@ hr {
 	border-radius: 8px;
 	border: none;
 	margin: 4rem auto;
-	background-color: var(--grey);
+	background-color: var(--blue);
 }
 
 .about-me {
 	display: grid;
 	place-items: center;
+}
+
+.about-me ul {
+	padding: 0;
 }
 
 .experiences {
@@ -226,4 +234,17 @@ hr {
 #myDiv {
 	display: none;
 	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+	background-color: var(--yellow);
+}
+
+.footer a {
+	text-decoration: none;
+	color: var(--brown);
+	font-weight: 400
 }
