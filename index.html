@@ -11,113 +11,122 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="js/main.js" defer></script>
 	</head>
-	<body>
-		<div class="announcement">
-			<p>
-				⚠️ Attention! Thank you for visiting my website, however it is
-				still under development. Please come back later! ⚠️
-			</p>
-		</div>
-		<nav class="navbar">
-			<div>
-				<a href="https://dulapahv.github.io/">> DulapahV</a>
-			</div>
-			<div>
-				<a href="#about-me">About Me</a>
-				<a href="#experiences">Experiences</a>
-				<a href="#projects">Projects</a>
-				<a href="#contact">Contact</a>
-			</div>
-			<div>
-				<a href="https://github.com/DulapahV">My Github</a>
-			</div>
-		</nav>
-		<div class="content-wrapper">
-			<div class="greeting-container">
-				<img src="./images/profile_pic.png" class="profile-pic" />
-				<h1>Greetings! I'm Dulapah Vibulsanti</h1>
-				<p>A year 2 student in Software Engineering @ KMITL, Bangkok</p>
-			</div>
-			<hr />
-			<div id="about-me" class="about-me">
-				<h1>About Me</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					eu nisl quis augue pretium semper. Nulla facilisi. Sed et
-					arcu in tortor egestas interdum. Sed sit amet arcu auctor,
-					euismod massa vitae, venenatis nunc. Sed euismod, ex ut
-					sodales consectetur, orci diam condimentum sapien, id luctus
-					magna est in arcu. Curabitur non ligula non turpis mollis
-					dignissim. Donec nec orci sed justo condimentum imperdiet.
-				</p>
-			</div>
-			<hr />
-			<div id="experiences" class="experiences">
-				<h1>Experiences</h1>
-				<h2>Lorem Ipsum</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					eu nisl quis augue pretium semper. Nulla facilisi. Sed et
-					arcu in tortor egestas interdum. Sed sit amet arcu auctor,
-					euismod massa vitae, venenatis nunc. Sed euismod, ex ut
-					sodales consectetur, orci diam condimentum sapien, id luctus
-					magna est in arcu. Curabitur non ligula non turpis mollis
-					dignissim. Donec nec orci sed justo condimentum imperdiet.
-				</p>
-			</div>
-			<hr />
-			<div id="projects" class="projects">
-				<h1>Projects</h1>
-				<h2>Lorem Ipsum</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					eu nisl quis augue pretium semper. Nulla facilisi. Sed et
-					arcu in tortor egestas interdum. Sed sit amet arcu auctor,
-					euismod massa vitae, venenatis nunc. Sed euismod, ex ut
-					sodales consectetur, orci diam condimentum sapien, id luctus
-					magna est in arcu. Curabitur non ligula non turpis mollis
-					dignissim. Donec nec orci sed justo condimentum imperdiet.
-				</p>
-				<h2>Lorem Ipsum</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-					eu nisl quis augue pretium semper. Nulla facilisi. Sed et
-					arcu in tortor egestas interdum. Sed sit amet arcu auctor,
-					euismod massa vitae, venenatis nunc. Sed euismod, ex ut
-					sodales consectetur, orci diam condimentum sapien, id luctus
-					magna est in arcu. Curabitur non ligula non turpis mollis
-					dignissim. Donec nec orci sed justo condimentum imperdiet.
-				</p>
-			</div>
-			<hr />
-			<div id="contact" class="contact">
-				<h1>Contact</h1>
-				<div class="row">
-					<div class="column">
-						<h2>Phone</h2>
-						<p>+66 81-908-5657</p>
-					</div>
-					<div class="column">
-						<h2>Email</h2>
-						<p>dulapah6@gmail.com</p>or
-						<p>64011388@kmitl.ac.th</p>
-					</div>
-					<div class="column">
-						<h2>LinkedIn</h2>
-						<p>
-							<a href="https://www.linkedin.com/in/dulapahv/"
-								>in/dulapahv</a
-							>
-						</p>
-					</div>
+	<body onload="myFunction()" style="margin: 0">
+		<div id="loader"></div>
 
-					<div class="column">
-						<h2>GitHub</h2>
-						<p>
-							<a href="https://www.linkedin.com/in/dulapahv/"
-								>dulapahv</a
-							>
-						</p>
+		<div style="display: none" id="myDiv" class="animate-bottom">
+			<div class="announcement">
+				<p>
+					⚠️ Attention! Thank you for visiting my website, however it
+					is still under development. Please come back later! ⚠️
+				</p>
+			</div>
+			<nav class="navbar">
+				<div>
+					<a href="https://dulapahv.github.io/">> DulapahV</a>
+				</div>
+				<div>
+					<a href="#about-me">About Me</a>
+					<a href="#experiences">Experiences</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</div>
+				<div>
+					<a href="https://github.com/DulapahV">My Github</a>
+				</div>
+			</nav>
+			<div class="content-wrapper">
+				<div class="greeting-container">
+					<img src="./images/profile_pic.png" class="profile-pic" />
+					<h1>Greetings! I'm Dulapah Vibulsanti</h1>
+					<p>
+						A year 2 student in Software Engineering @ KMITL,
+						Bangkok
+					</p>
+				</div>
+				<hr />
+				<div id="about-me" class="about-me">
+					<h1>About Me</h1>
+					<p>
+						<ul>⚡ Currently learning Python, C/C++, Java, and Assembly</ul>
+						<ul>🎈 Planning to be a full stack developer</ul>
+						<ul>✨ Planning to pursue more coding competition like Google Kick Start, Facebook Hacker Cup, etc.</ul>
+						<ul>🏆 My dream is to work in the Silicon Valley or develop a game or develop something that will benefit everyone and improve our quality of life</ul>
+					</p>
+				</div>
+				<hr />
+				<div id="experiences" class="experiences">
+					<h1>Experiences</h1>
+					<h2>Lorem Ipsum</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Sed eu nisl quis augue pretium semper. Nulla facilisi.
+						Sed et arcu in tortor egestas interdum. Sed sit amet
+						arcu auctor, euismod massa vitae, venenatis nunc. Sed
+						euismod, ex ut sodales consectetur, orci diam
+						condimentum sapien, id luctus magna est in arcu.
+						Curabitur non ligula non turpis mollis dignissim. Donec
+						nec orci sed justo condimentum imperdiet.
+					</p>
+				</div>
+				<hr />
+				<div id="projects" class="projects">
+					<h1>Projects</h1>
+					<h2>Lorem Ipsum</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Sed eu nisl quis augue pretium semper. Nulla facilisi.
+						Sed et arcu in tortor egestas interdum. Sed sit amet
+						arcu auctor, euismod massa vitae, venenatis nunc. Sed
+						euismod, ex ut sodales consectetur, orci diam
+						condimentum sapien, id luctus magna est in arcu.
+						Curabitur non ligula non turpis mollis dignissim. Donec
+						nec orci sed justo condimentum imperdiet.
+					</p>
+					<h2>Lorem Ipsum</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Sed eu nisl quis augue pretium semper. Nulla facilisi.
+						Sed et arcu in tortor egestas interdum. Sed sit amet
+						arcu auctor, euismod massa vitae, venenatis nunc. Sed
+						euismod, ex ut sodales consectetur, orci diam
+						condimentum sapien, id luctus magna est in arcu.
+						Curabitur non ligula non turpis mollis dignissim. Donec
+						nec orci sed justo condimentum imperdiet.
+					</p>
+				</div>
+				<hr />
+				<div id="contact" class="contact">
+					<h1>Contact</h1>
+					<div class="row">
+						<div class="column">
+							<h2>Phone</h2>
+							<p>+66 81-908-5657</p>
+						</div>
+						<div class="column">
+							<h2>Email</h2>
+							<p>
+								dulapah6@gmail.com
+								<br />or<br />
+								64011388@kmitl.ac.th
+							</p>
+						</div>
+						<div class="column">
+							<h2>LinkedIn</h2>
+							<p>
+								<a href="https://www.linkedin.com/in/dulapahv/"
+									>in/dulapahv</a
+								>
+							</p>
+						</div>
+						<div class="column">
+							<h2>GitHub</h2>
+							<p>
+								<a href="https://www.linkedin.com/in/dulapahv/"
+									>dulapahv</a
+								>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
