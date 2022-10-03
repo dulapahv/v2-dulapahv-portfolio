@@ -48,10 +48,12 @@ html {
 	font-family: Gotham, Sans-serif;
 	font-weight: 600;
 }
+
 .navbar div * {
 	display: inline-block;
 	padding: 1rem;
 }
+
 .navbar div a {
 	text-decoration: none;
 	color: var(--white);
@@ -61,6 +63,7 @@ html {
 	margin: min(4%, 2.5rem) min(5%, 8rem);
 	width: min(95%, 80rem);
 	margin: 1rem auto;
+	text-align: center;
 }
 
 h1 {
@@ -69,9 +72,8 @@ h1 {
 }
 
 .greeting-container * {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 	width: 100%;
 	margin: 1rem auto;
 }
@@ -92,25 +94,36 @@ hr {
 }
 
 .about-me {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 }
 
 .experiences {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 }
 
 .projects {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 }
 
 .contact {
+	display: grid;
+	place-items: center;
+}
+
+.row {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+}
+
+.column {
+	flex: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	column-width: 15rem;
+}
+
+.column a {
+	color: var(--yellow);
 }
