@@ -55,6 +55,15 @@ html {
 	padding: 1rem;
 }
 
+.fade-out {
+	-webkit-animation-name: fade-out;
+	animation-name: fade-out;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
 .navbar div a {
 	text-decoration: none;
 	color: var(--white);
@@ -65,20 +74,12 @@ html {
 	background-color: var(--yellow);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	.navbar .responsive {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.navbar.responsive {
-		position: relative;
-	}
-	.navbar .responsive a {
-		float: none;
-		display: block;
-		text-align: left;
+		-webkit-animation: fade-out 0.5s forwards;
+		animation: fade-out 0.5s forwards;
+		position: absolute;
+		width: 100%;
 	}
 }
 
@@ -134,6 +135,17 @@ hr {
 	place-items: center;
 }
 
+.experiences .exp-icon {
+	margin-bottom: 10px;
+}
+
+.experiences img {
+	display: inline-block;
+	margin: 0.2rem;
+	width: 50px;
+	top: 50px;
+}
+
 .projects {
 	display: grid;
 	place-items: center;
@@ -157,6 +169,14 @@ hr {
 
 .column a {
 	color: var(--yellow);
+}
+
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
 }
 
 #loader {
