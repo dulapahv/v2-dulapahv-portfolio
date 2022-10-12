@@ -72,6 +72,8 @@ html {
 .navbar div a:hover {
 	color: var(--brown);
 	background-color: var(--yellow);
+	-webkit-animation: fade-in 0.2s forwards;
+	animation: fade-in 0.2s forwards;
 }
 
 @media screen and (max-width: 750px) {
@@ -149,6 +151,10 @@ hr {
 .projects {
 	display: grid;
 	place-items: center;
+}
+
+.projects a {
+	color: var(--white);
 }
 
 .contact {
