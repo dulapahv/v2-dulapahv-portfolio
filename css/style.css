@@ -108,6 +108,11 @@ hr {
 	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
+.navbar {
+	-webkit-animation: navbar-expand 0.4s ease-in-out;
+	animation: navbar-expand 0.4s ease-in-out;
+}
+
 .navbar div * {
 	display: inline-block;
 	padding: 1rem;
@@ -130,8 +135,9 @@ hr {
 .navbar div a:hover {
 	color: var(--brown);
 	background-color: var(--yellow);
-	-webkit-animation: fade-in 0.2s forwards, round-in 0s forwards;
-	animation: fade-in 0.2s forwards, round-in 0s forwards;
+	-webkit-animation: fade-in 0.2s forwards, round-in 0s forwards,
+		bounce 0.2s forwards;
+	animation: fade-in 0.2s forwards, round-in 0s forwards, bounce 0.2s forwards;
 }
 
 @media (hover: none) {
@@ -167,6 +173,16 @@ hr {
 	margin: 1rem auto;
 }
 
+.greeting-container h1 {
+	-webkit-animation: text-wipe 1s ease-out;
+	animation: text-wipe 1s ease-out;
+}
+
+#rainbow {
+	-webkit-animation: color-change 5s infinite;
+	animation: color-change 5s infinite;
+}
+
 .greeting-container img {
 	margin: 3rem auto;
 	width: 20%;
@@ -177,6 +193,10 @@ hr {
 .about-me {
 	display: grid;
 	place-items: center;
+}
+
+.about-me b {
+	color: var(--blue);
 }
 
 .experiences {
@@ -193,6 +213,10 @@ hr {
 	margin: 0.2rem;
 	width: 50px;
 	top: 50px;
+}
+
+.experiences b {
+	color: var(--blue);
 }
 
 .projects {
