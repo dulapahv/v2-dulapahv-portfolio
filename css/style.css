@@ -215,6 +215,11 @@ hr {
 	top: 50px;
 }
 
+.experiences img:hover {
+	-webkit-animation: zoom-in 0.2s forwards;
+	animation: zoom-in 0.2s forwards;
+}
+
 .experiences b {
 	color: var(--blue);
 }
@@ -248,7 +253,7 @@ hr {
 }
 
 .column a {
-	color: var(--yellow);
+	color: var(--blue);
 }
 
 .animate-bottom {
