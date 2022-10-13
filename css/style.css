@@ -134,6 +134,15 @@ hr {
 	animation: fade-in 0.2s forwards, round-in 0s forwards;
 }
 
+@media (hover: none) {
+	.navbar div a:hover {
+		color: var(--white);
+		background-color: transparent;
+		-webkit-animation: none;
+		animation: none;
+	}
+}
+
 @media screen and (max-width: 750px) {
 	.navbar .responsive {
 		-webkit-animation: fade-out 0.3s forwards;
