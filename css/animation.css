@@ -101,3 +101,38 @@
 		opacity: 1;
 	}
 }
+
+@-webkit-keyframes round-in {
+	from {
+		border-radius: 0;
+	}
+	to {
+		border-radius: 10px;
+	}
+}
+@keyframes round-in {
+	from {
+		border-radius: 0;
+	}
+	to {
+		border-radius: 10px;
+	}
+}
+
+@-webkit-keyframes round-out {
+	from {
+		border-radius: 10px;
+	}
+	to {
+		border-radius: 0;
+	}
+}
+
+@keyframes round-out {
+	from {
+		border-radius: 10px;
+	}
+	to {
+		border-radius: 0;
+	}
+}
