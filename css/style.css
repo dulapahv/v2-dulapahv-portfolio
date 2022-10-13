@@ -109,8 +109,8 @@ hr {
 }
 
 .navbar {
-	-webkit-animation: navbar-expand 0.4s ease-in-out;
-	animation: navbar-expand 0.4s ease-in-out;
+	-webkit-animation: navbar-expand 0.4s cubic-bezier(.17,.67,.52,.96);
+	animation: navbar-expand 0.4s cubic-bezier(.17,.67,.52,.96);
 }
 
 .navbar div * {
