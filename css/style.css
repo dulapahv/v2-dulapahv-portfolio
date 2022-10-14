@@ -74,11 +74,11 @@ hr {
 	font-size: 0.8em;
 }
 
-@media screen and (max-width: 573px) {
+/* @media screen and (max-width: 573px) {
 	.announcement {
 		height: 4rem;
 	}
-}
+} */
 
 .announcement p {
 	color: var(--brown);
@@ -129,7 +129,7 @@ hr {
 	animation-fill-mode: forwards;
 }
 
-.navbar div a {
+.navbar div a, .menu a {
 	text-decoration: none;
 	color: var(--white);
 }
@@ -151,20 +151,39 @@ hr {
 	}
 }
 
+.menu {
+	position: absolute;
+	right: 0;
+	background: linear-gradient(
+		0deg,
+		var(--pink),
+		var(--darkblue)
+	);
+}
+
 .navbar .responsive {
 	-webkit-transition: opacity 0.3s ease;
 	transition: opacity 0.3s ease;
 	opacity: 1;
 }
 
-@media screen and (max-width: 750px) {
+.desktop {
+	opacity: 1;
+}
+
+/* @media screen and (max-width: 750px) {
 	.navbar .responsive {
 		position: absolute;
 		width: 100%;
 		pointer-events: none;
 		opacity: 0;
 	}
-}
+	.desktop {
+		-webkit-transition: none;
+			transition: none;
+		opacity: 0;
+	}
+} */
 
 .content-wrapper {
 	margin: min(4%, 2.5rem) min(5%, 8rem);
