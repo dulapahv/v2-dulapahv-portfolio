@@ -151,13 +151,18 @@ hr {
 	}
 }
 
+.navbar .responsive {
+	-webkit-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+	opacity: 1;
+}
+
 @media screen and (max-width: 750px) {
 	.navbar .responsive {
-		-webkit-animation: fade-out 0.3s forwards;
-		animation: fade-out 0.3s forwards;
 		position: absolute;
 		width: 100%;
 		pointer-events: none;
+		opacity: 0;
 	}
 }
 
