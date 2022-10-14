@@ -106,11 +106,8 @@ hr {
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
-}
-
-.navbar {
-	-webkit-animation: navbar-expand 0.4s cubic-bezier(.17,.67,.52,.96);
-	animation: navbar-expand 0.4s cubic-bezier(.17,.67,.52,.96);
+	-webkit-animation: navbar-expand 0.4s cubic-bezier(0.17, 0.67, 0.52, 0.96);
+	animation: navbar-expand 0.4s cubic-bezier(0.17, 0.67, 0.52, 0.96);
 }
 
 .navbar div * {
@@ -135,9 +132,9 @@ hr {
 .navbar div a:hover {
 	color: var(--brown);
 	background-color: var(--yellow);
-	-webkit-animation: fade-in 0.2s forwards, round-in 0s forwards,
+	-webkit-animation: fade-in 0.2s forwards, round-in forwards,
 		bounce 0.2s forwards;
-	animation: fade-in 0.2s forwards, round-in 0s forwards, bounce 0.2s forwards;
+	animation: fade-in 0.2s forwards, round-in forwards, bounce 0.2s forwards;
 }
 
 @media (hover: none) {
