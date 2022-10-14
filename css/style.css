@@ -129,12 +129,14 @@ hr {
 	animation-fill-mode: forwards;
 }
 
-.navbar div a, .menu a {
+.navbar div a,
+.menu a {
 	text-decoration: none;
 	color: var(--white);
 }
 
-.navbar li:hover a {
+.navbar li:hover a,
+.menu li:hover a {
 	color: var(--brown);
 	background-color: var(--yellow);
 	-webkit-animation: fade-in 0.2s forwards, round-in forwards,
@@ -143,7 +145,8 @@ hr {
 }
 
 @media (hover: none) {
-	.navbar div a:hover {
+	.navbar div a:hover,
+	.menu li:hover a {
 		color: var(--white);
 		background-color: transparent;
 		-webkit-animation: none;
@@ -154,11 +157,23 @@ hr {
 .menu {
 	position: absolute;
 	right: 0;
-	background: linear-gradient(
-		0deg,
-		var(--pink),
-		var(--darkblue)
-	);
+	margin: 0.5rem;
+	background: var(--darkgrey);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+	width: auto;
+}
+
+.mobile.menu {
+	display: none;
+}
+
+@media screen and (min-width: 750px) {
+	.mobile * {
+		display: none;
+	}
 }
 
 .navbar .responsive {

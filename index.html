@@ -27,8 +27,8 @@
 		<meta name="msapplication-TileColor" content="#854d0e" />
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
 		<meta name="theme-color" content="#854d0e" />
-		<link rel="preload" href="/css/*.css" as="style"/>
-		<link rel="preload" href="/js/*.js" as="script"/>
+		<!-- <link rel="preload" href="/css/*.css" as="style"/>
+		<link rel="preload" href="/js/*.js" as="script"/> -->
 
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/responsive/responsive.css" />
@@ -42,7 +42,6 @@
 			rel="stylesheet"
 		/>
 		<script src="js/main.js" defer></script>
-		<script src="https://kit.fontawesome.com/a076d05399.js" defer crossorigin="anonymous"></script>
 	</head>
 	<body onload="timeout()" style="margin: 0">
 		<div id="loader"></div>
@@ -69,17 +68,16 @@
 				<div class="desktop">
 					<li><a href="https://github.com/DulapahV">My Github</a></li>
 				</div>
-				<div class="mobile">
-					<li><a class="fas fa-bars"></a></li>
+				<div class="mobile" onclick="showMenu()">
+					<li><img src="./images/navbar_toggle.png" /></li>
 				</div>
 			</nav>
-			<nav class="mobile menu">
-				WORK IN PROGRESS
-				<li><a href="https://github.com/DulapahV">My Github</a></li>
+			<nav class="mobile menu" id="mobile menu">
 				<li><a href="#about-me">About Me</a></li>
 				<li><a href="#experiences">Experiences</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<li><a href="https://github.com/DulapahV">My Github</a></li>
 			</nav>
 			<div class="content-wrapper">
 				<div class="greeting-container">
