@@ -115,6 +115,11 @@ hr {
 	padding: 1rem;
 }
 
+.navbar li {
+	display: inline-block;
+	padding: 0;
+}
+
 .fade-out {
 	-webkit-animation-name: fade-out;
 	animation-name: fade-out;
@@ -129,7 +134,7 @@ hr {
 	color: var(--white);
 }
 
-.navbar div a:hover {
+.navbar li:hover a {
 	color: var(--brown);
 	background-color: var(--yellow);
 	-webkit-animation: fade-in 0.2s forwards, round-in forwards,
