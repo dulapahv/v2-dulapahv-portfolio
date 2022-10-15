@@ -237,7 +237,7 @@ hr {
 }
 
 .about-me b {
-	color: var(--text-blue);
+	color: var(--txt-blue);
 }
 
 .experiences {
@@ -262,7 +262,7 @@ hr {
 }
 
 .experiences b {
-	color: var(--text-blue);
+	color: var(--txt-blue);
 }
 
 .projects {
