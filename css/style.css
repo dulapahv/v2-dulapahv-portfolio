@@ -6,15 +6,15 @@
 body,
 html {
 	margin: 0;
-	background-color: var(--black);
-	color: var(--white);
+	background-color: var(--background);
+	color: var(--txt);
 	font-family: Gotham, Sans-serif;
 	font-weight: 200;
 	scroll-behavior: smooth;
 }
 
 h1 {
-	color: var(--pink);
+	color: var(--h1);
 	font-weight: 800;
 }
 
@@ -43,11 +43,11 @@ hr {
 	height: 3px;
 }
 ::-webkit-scrollbar-track-piece {
-	background-color: var(--darkgrey);
+	background-color: var(--darkgray);
 }
 ::-webkit-scrollbar-thumb {
 	height: 50px;
-	background-color: var(--grey);
+	background-color: var(--gray);
 	border-radius: 3px;
 }
 
@@ -132,7 +132,7 @@ hr {
 .navbar div a,
 .menu a {
 	text-decoration: none;
-	color: var(--white);
+	color: var(--txt-navbar);
 }
 
 .navbar li:hover a,
@@ -147,7 +147,7 @@ hr {
 @media (hover: none) {
 	.navbar div a:hover,
 	.menu li:hover a {
-		color: var(--white);
+		color: var(--txt-navbar);
 		background-color: transparent;
 		-webkit-animation: none;
 		animation: none;
@@ -158,7 +158,7 @@ hr {
 	position: absolute;
 	right: 0;
 	margin: 0.5rem;
-	background: var(--darkgrey);
+	background: var(--darkgray);
 	border-radius: 10px;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
@@ -237,7 +237,7 @@ hr {
 }
 
 .about-me b {
-	color: var(--blue);
+	color: var(--text-blue);
 }
 
 .experiences {
@@ -262,7 +262,7 @@ hr {
 }
 
 .experiences b {
-	color: var(--blue);
+	color: var(--text-blue);
 }
 
 .projects {
@@ -294,7 +294,7 @@ hr {
 }
 
 .column a {
-	color: var(--blue);
+	color: var(--txt-blue);
 }
 
 .animate-bottom {
@@ -337,12 +337,12 @@ hr {
 		45deg,
 		var(--yellow),
 		var(--yellow) 25%,
-		#f9ba10 25%,
-		#f9ba10 50%,
+		var(--darkyellow) 25%,
+		var(--darkyellow) 50%,
 		var(--yellow) 50%,
 		var(--yellow) 75%,
-		#f9ba10 75%,
-		#f9ba10
+		var(--darkyellow) 75%,
+		var(--darkyellow)
 	);
 	background-size: 50px 50px;
 	border-radius: 20px 20px 0px 0px;

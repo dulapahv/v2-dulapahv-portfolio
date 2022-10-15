@@ -256,3 +256,20 @@
 		transform: scale(1.2);
 	}
 }
+@-webkit-keyframes fly-in {
+	0% {
+		clip-path: inset(0 0 0 100%);
+	}
+	100% {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+@keyframes fly-in {
+	0% {
+		clip-path: inset(0 0 0 100%);
+	}
+	100% {
+		clip-path: inset(0 0 0 0);
+	}
+}

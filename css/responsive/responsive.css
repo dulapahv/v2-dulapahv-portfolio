@@ -48,5 +48,8 @@
 	}
 	.mobile {
 		display: inherit;
+		-webkit-animation: fade-in 0.2s forwards, fly-in 0.1s ease-out;
+		animation: fade-in 0.2s forwards, fly-in 0.1s ease-out;
 	}
+
 }
