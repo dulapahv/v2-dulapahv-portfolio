@@ -1,0 +1,11 @@
+.projects {
+	display: grid;
+	place-items: center;
+}
+
+.projects a {
+	color: var(--white);
+	font-family: Roboto, Sans-serif;
+	font-style: italic;
+	font-weight: 100;
+}

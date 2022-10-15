@@ -239,7 +239,7 @@
 	}
 }
 
-@webkit-keyframes zoom-in {
+@-webkit-keyframes zoom-in {
 	0% {
 		transform: scale(1);
 	}
