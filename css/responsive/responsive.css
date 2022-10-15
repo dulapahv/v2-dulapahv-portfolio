@@ -22,7 +22,7 @@
 @media screen and (max-width: 750px) {
 	.navbar .responsive {
 		position: absolute;
-		width: 100%;
+		width: 98%;
 		pointer-events: none;
 		opacity: 0;
 	}
