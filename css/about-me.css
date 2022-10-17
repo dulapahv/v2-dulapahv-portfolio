@@ -1,8 +1,8 @@
 .about-me {
-	display: grid;
-	place-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .about-me b {
-	color: var(--txt-blue);
+    color: var(--txt-blue);
 }
