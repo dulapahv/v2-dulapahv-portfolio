@@ -46,7 +46,7 @@
     font-weight: 600;
 }
 
-.header-content__btn {
+.header-content__btn button {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
@@ -57,6 +57,7 @@
     cursor: pointer;
     outline: none;
     border-radius: 50px;
+    border: none;
 }
 
 .header-content__btn:hover {
@@ -73,6 +74,8 @@
 
 .header-image img {
     width: 40rem;
+    max-width: 100%;
+    height: auto;
     border-radius: 5%;
 }
 

@@ -47,6 +47,7 @@
     height: 12vw;
     object-fit: contain;
     max-height: 80%;
+    max-width: 100%;
 }
 
 .experiences-detail__content {
