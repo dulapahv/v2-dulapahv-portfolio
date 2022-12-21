@@ -3,12 +3,12 @@ import "./feature.css";
 
 const Feature = ({ title, text }) => {
     return (
-        <div className="gpt3_features-container_feature">
-            <div className="gpt3_features-container_feature-title">
+        <div className="features__container__feature">
+            <div className="features__container__feature--title">
                 <div />
                 <h2>{title}</h2>
             </div>
-            <div className="gpt3_features-container_feature-text">
+            <div className="features__container__feature--text">
                 <p>{text}</p>
             </div>
         </div>

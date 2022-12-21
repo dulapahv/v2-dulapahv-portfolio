@@ -112,3 +112,15 @@
         max-height: 100%;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .experiences-detail__content h1 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .experiences-detail__content {
+        margin-top: 1rem;
+    }
+}
