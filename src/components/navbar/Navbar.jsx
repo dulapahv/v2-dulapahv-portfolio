@@ -26,6 +26,11 @@ const Navbar = () => {
         if (document.scrollingElement.scrollTop) setActive(true);
         else setActive(false);
     });
+    document.querySelectorAll(".navbar__menu__container p").forEach((item) => {
+        item.addEventListener("click", () => {
+            setToggleMenu(false);
+        });
+    });
     return (
         <div
             className={

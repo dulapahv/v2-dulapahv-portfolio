@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Experiences from "../../assets/Work_Experiences";
+import Work_Exp from "./imports";
 import "./experiences_detail.css";
 
 const ExperiencesDetail = () => {
@@ -7,8 +7,8 @@ const ExperiencesDetail = () => {
         <>
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__image img--left">
-                    <img src={Work_Experiences.TA1} alt="Rust TA 1" />
-                    <img src={Work_Experiences.TA2} alt="Rust TA 2" />
+                    <img src={Work_Exp.TA1} alt="Rust TA 1" />
+                    <img src={Work_Exp.TA2} alt="Rust TA 2" />
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
@@ -18,9 +18,9 @@ const ExperiencesDetail = () => {
                     <p>
                         I am the official Teaching Assistance of KMITL in Rust
                         programming language for the KMITL freshmen.
-                        <br />I also help created the Rust programming language
-                        summary and it proved to be highly beneficial to the
-                        students and result in more students understanding the
+                        <br />I also helped create the Rust programming language
+                        summary, which proved to be highly beneficial to the
+                        students and resulted in more students understanding the
                         Rust programming language.
                     </p>
                     <h4>
@@ -40,10 +40,10 @@ const ExperiencesDetail = () => {
                         Qualified and currently a cadet at 42 Bangkok
                     </h1>
                     <p>
-                        I am qualified and currently a cadet at 42Bangkok, a
-                        global computer science school from France. This
-                        immensely improve by C programming language skills and
-                        my algorithmic thinking skills.
+                        I am qualified and am currently a cadet at 42 Bangkok, a
+                        global computer science school from France. This greatly
+                        improved my C programming language skills and my
+                        algorithmic thinking skills.
                     </p>
                     <h4>
                         <a
@@ -56,14 +56,14 @@ const ExperiencesDetail = () => {
                     </h4>
                 </div>
                 <div className="experiences-detail__image img--right">
-                    <img src={Work_Experiences.Bangkok1} alt="Rust TA 1" />
-                    <img src={Work_Experiences.Bangkok2} alt="Rust TA 2" />
+                    <img src={Work_Exp.Bangkok1} alt="Rust TA 1" />
+                    <img src={Work_Exp.Bangkok2} alt="Rust TA 2" />
                 </div>
             </div>
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__image img--left">
-                    <img src={Work_Experiences.PreSession1} alt="Rust TA 1" />
-                    <img src={Work_Experiences.PreSession2} alt="Rust TA 2" />
+                    <img src={Work_Exp.PreSession1} alt="Rust TA 1" />
+                    <img src={Work_Exp.PreSession2} alt="Rust TA 2" />
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
@@ -72,11 +72,11 @@ const ExperiencesDetail = () => {
                     </h1>
                     <p>
                         I initiated and mentored KMITL freshmen in Python and C
-                        programming language in the SE14 Pre-Session activity.
+                        programming languages in the SE14 Pre-Session activity.
                         This proves to be very helpful to students who are new
                         to programming.
                         <br />
-                        The activity is held in a virtual reality, which really
+                        The activity is held in virtual reality, which really
                         demonstrates that I'm able to utilize new technologies
                         effectively and creatively.
                     </p>
@@ -99,7 +99,7 @@ const ExperiencesDetail = () => {
                         universities
                     </h1>
                     <p>
-                        I assist in coding to friends in KMITL and other
+                        I assist in coding for friends at KMITL and other
                         universities such as Chulalongkorn University, Thammasat
                         University, Mahidol University, Kasetsart University,
                         The Chinese University of Hong Kong, etc. They all found
@@ -117,12 +117,12 @@ const ExperiencesDetail = () => {
                     </h4>
                 </div>
                 <div className="experiences-detail__image--uni img--right">
-                    <img src={Work_Experiences.KMITL} alt="KMITL" />
-                    <img src={Work_Experiences.CU} alt="CU" />
-                    <img src={Work_Experiences.TU} alt="TU" />
-                    <img src={Work_Experiences.MU} alt="MU" />
-                    <img src={Work_Experiences.KU} alt="KU" />
-                    <img src={Work_Experiences.CUHK} alt="CUHK" />
+                    <img src={Work_Exp.KMITL} alt="KMITL" />
+                    <img src={Work_Exp.CU} alt="CU" />
+                    <img src={Work_Exp.TU} alt="TU" />
+                    <img src={Work_Exp.MU} alt="MU" />
+                    <img src={Work_Exp.KU} alt="KU" />
+                    <img src={Work_Exp.CUHK} alt="CUHK" />
                 </div>
             </div>
         </>

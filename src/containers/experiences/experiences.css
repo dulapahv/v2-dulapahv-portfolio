@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    scroll-margin-top: 30px;
+    padding-bottom: 0 !important;
 }
 
 .experiences__heading {

@@ -79,6 +79,7 @@
 @media screen and (max-width: 1050px) {
     .header {
         flex-direction: column;
+        padding-top: 8rem !important;
     }
     .header-content {
         margin: 0 0 2rem;
@@ -86,6 +87,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .header {
+        padding-top: 7rem !important;
+    }
     .header h1 {
         font-size: 48px;
         line-height: 60px;
@@ -97,12 +101,18 @@
 }
 
 @media screen and (max-width: 490px) {
-    .gpt3_header h1 {
+    .header {
+        padding-top: 6rem !important;
+    }
+    .header h1 {
         font-size: 36px;
         line-height: 48px;
     }
-    .gpt3_header p {
+    .header p {
         font-size: 14px;
         line-height: 24px;
+    }
+    .header-content__btn {
+        font-size: 16px;
     }
 }

@@ -1,9 +1,5 @@
 import React from "react";
-import Prog_Lang from "../../assets/Prog_Lang";
-import Other_Tech from "../../assets/Other_Tech";
-import OS_Hardware from "../../assets/OS_Hardware";
-import Media_Design from "../../assets/Media_Design";
-import VR_VChar from "../../assets/VR_VChar";
+import Exp_Icon from "./imports.js";
 import "./experiences.css";
 
 const Experiences = () => {
@@ -22,18 +18,18 @@ const Experiences = () => {
                     </h2>
                 </div>
                 <div className="experiences__container__icon">
-                    <img src={Prog_Lang.py} alt="Python" />
-                    <img src={Prog_Lang.c} alt="C" />
-                    <img src={Prog_Lang.cpp} alt="C++" />
-                    <img src={Prog_Lang.cs} alt="C#" />
-                    <img src={Prog_Lang.java} alt="Java" />
-                    <img src={Prog_Lang.rust} alt="Rust" />
-                    <img src={Prog_Lang.html} alt="HTML" />
-                    <img src={Prog_Lang.css} alt="CSS" />
-                    <img src={Prog_Lang.js} alt="JavaScript" />
-                    <img src={Prog_Lang.react} alt="React" />
-                    <img src={Prog_Lang.arm} alt="ARM" />
-                    <img src={Prog_Lang.swift} alt="Swift" />
+                    <img src={Exp_Icon.Prog_Lang.py} alt="Python" />
+                    <img src={Exp_Icon.Prog_Lang.c} alt="C" />
+                    <img src={Exp_Icon.Prog_Lang.cpp} alt="C++" />
+                    <img src={Exp_Icon.Prog_Lang.cs} alt="C#" />
+                    <img src={Exp_Icon.Prog_Lang.java} alt="Java" />
+                    <img src={Exp_Icon.Prog_Lang.rust} alt="Rust" />
+                    <img src={Exp_Icon.Prog_Lang.html} alt="HTML" />
+                    <img src={Exp_Icon.Prog_Lang.css} alt="CSS" />
+                    <img src={Exp_Icon.Prog_Lang.js} alt="JavaScript" />
+                    <img src={Exp_Icon.Prog_Lang.react} alt="React" />
+                    <img src={Exp_Icon.Prog_Lang.arm} alt="ARM" />
+                    <img src={Exp_Icon.Prog_Lang.swift} alt="Swift" />
                 </div>
                 <div className="experiences__container__header">
                     <div />
@@ -42,14 +38,17 @@ const Experiences = () => {
                     </h2>
                 </div>
                 <div className="experiences__container__icon">
-                    <img src={Other_Tech.firebase} alt="Firebase" />
-                    <img src={Other_Tech.git} alt="Git" />
-                    <img src={Other_Tech.unity} alt="Unity" />
-                    <img src={Other_Tech.unreal} alt="Unreal Engine" />
-                    <img src={Other_Tech.tailwindcss} alt="Tailwind CSS" />
-                    <img src={Other_Tech.vmware} alt="VMware" />
-                    <img src={Other_Tech.mysql} alt="MySQL" />
-                    <img src={Other_Tech.sass} alt="Sass" />
+                    <img src={Exp_Icon.Other_Tech.firebase} alt="Firebase" />
+                    <img src={Exp_Icon.Other_Tech.git} alt="Git" />
+                    <img src={Exp_Icon.Other_Tech.unity} alt="Unity" />
+                    <img src={Exp_Icon.Other_Tech.unreal} alt="Unreal Engine" />
+                    <img
+                        src={Exp_Icon.Other_Tech.tailwindcss}
+                        alt="Tailwind CSS"
+                    />
+                    <img src={Exp_Icon.Other_Tech.vmware} alt="VMware" />
+                    <img src={Exp_Icon.Other_Tech.mysql} alt="MySQL" />
+                    <img src={Exp_Icon.Other_Tech.sass} alt="Sass" />
                 </div>
                 <div className="experiences__container__header">
                     <div />
@@ -58,9 +57,12 @@ const Experiences = () => {
                     </h2>
                 </div>
                 <div className="experiences__container__icon">
-                    <img src={OS_Hardware.windows} alt="Windows" />
-                    <img src={OS_Hardware.linux} alt="Linux" />
-                    <img src={OS_Hardware.raspberry_pi} alt="Raspberry Pi" />
+                    <img src={Exp_Icon.OS_Hardware.windows} alt="Windows" />
+                    <img src={Exp_Icon.OS_Hardware.linux} alt="Linux" />
+                    <img
+                        src={Exp_Icon.OS_Hardware.raspberry_pi}
+                        alt="Raspberry Pi"
+                    />
                 </div>
                 <div className="experiences__container__header">
                     <div />
@@ -69,14 +71,29 @@ const Experiences = () => {
                     </h2>
                 </div>
                 <div className="experiences__container__icon">
-                    <img src={Media_Design.ps} alt="Adobe Photoshop" />
-                    <img src={Media_Design.ai} alt="Adobe Illustrator" />
-                    <img src={Media_Design.pr} alt="Adobe Premiere" />
-                    <img src={Media_Design.word} alt="Microsoft Word" />
-                    <img src={Media_Design.ppt} alt="Microsoft PowerPoint" />
-                    <img src={Media_Design.excel} alt="Microsoft Excel" />
-                    <img src={Media_Design.visio} alt="Microsoft Visio" />
-                    <img src={Media_Design.audacity} alt="Audacity" />
+                    <img src={Exp_Icon.Media_Design.ps} alt="Adobe Photoshop" />
+                    <img
+                        src={Exp_Icon.Media_Design.ai}
+                        alt="Adobe Illustrator"
+                    />
+                    <img src={Exp_Icon.Media_Design.pr} alt="Adobe Premiere" />
+                    <img
+                        src={Exp_Icon.Media_Design.word}
+                        alt="Microsoft Word"
+                    />
+                    <img
+                        src={Exp_Icon.Media_Design.ppt}
+                        alt="Microsoft PowerPoint"
+                    />
+                    <img
+                        src={Exp_Icon.Media_Design.excel}
+                        alt="Microsoft Excel"
+                    />
+                    <img
+                        src={Exp_Icon.Media_Design.visio}
+                        alt="Microsoft Visio"
+                    />
+                    <img src={Exp_Icon.Media_Design.audacity} alt="Audacity" />
                 </div>
                 <div className="experiences__container__header">
                     <div />
@@ -85,11 +102,11 @@ const Experiences = () => {
                     </h2>
                 </div>
                 <div className="experiences__container__icon">
-                    <img src={VR_VChar.oculus} alt="Oculus" />
-                    <img src={VR_VChar.vroid} alt="VRoid Studio" />
-                    <img src={VR_VChar.vcast} alt="VCast Studio" />
-                    <img src={VR_VChar.vtube} alt="VTube Studio" />
-                    <img src={VR_VChar.vmagic} alt="VMagicMirror" />
+                    <img src={Exp_Icon.VR_VChar.oculus} alt="Oculus" />
+                    <img src={Exp_Icon.VR_VChar.vroid} alt="VRoid Studio" />
+                    <img src={Exp_Icon.VR_VChar.vcast} alt="VCast Studio" />
+                    <img src={Exp_Icon.VR_VChar.vtube} alt="VTube Studio" />
+                    <img src={Exp_Icon.VR_VChar.vmagic} alt="VMagicMirror" />
                 </div>
             </div>
         </div>
