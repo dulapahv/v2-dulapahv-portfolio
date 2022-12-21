@@ -71,7 +71,7 @@ const ExperiencesDetail = () => {
                         programming language
                     </h1>
                     <p>
-                        I initiated and mentored KMITL freshmen in Python and C
+                        I initiated and mentored KMITL freshmen in Python
                         programming languages in the SE14 Pre-Session activity.
                         This proves to be very helpful to students who are new
                         to programming.
@@ -95,7 +95,7 @@ const ExperiencesDetail = () => {
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
-                        Assist in coding to friends in KMITL and other
+                        Assist in coding for friends in KMITL and other
                         universities
                     </h1>
                     <p>
