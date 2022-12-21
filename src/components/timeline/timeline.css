@@ -49,7 +49,7 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -20px;
     background-color: #ffcc49;
     border: 4px solid #fff;
     top: 15px;
@@ -100,7 +100,7 @@
 /* Fix the circle for containers on the right side */
 .right::after,
 .right-highlight::after {
-    left: -12px;
+    left: -16px;
 }
 
 /* The actual content */
@@ -149,7 +149,7 @@
     .left::after,
     .right::after,
     .right-highlight::after {
-        left: 22px;
+        left: 18px;
     }
 
     /* Make all right containers behave like the left ones */
