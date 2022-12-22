@@ -31,7 +31,7 @@ const Navbar = () => {
             className={
                 isActive
                     ? "navbar scale-up-bottom navbar-fixed"
-                    : "navbar scale-up-bottom"
+                    : "flex items-center justify-between h-12 my-0 mx-4 p-2 fixed inset-x-0 scale-up-bottom bg-[color:var(--gradient-bar)] rounded-[10px] top-6 z-2"
             }
         >
             <div className="navbar__links--left">
