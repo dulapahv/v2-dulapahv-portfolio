@@ -47,7 +47,7 @@ const Experiences = () => {
                         alt="Tailwind CSS"
                     />
                     <img src={Exp_Icon.Other_Tech.vmware} alt="VMware" />
-                    <img src={Exp_Icon.Other_Tech.mysql} alt="MySQL" />
+                    <img src={Exp_Icon.Other_Tech.sqlite} alt="SQLite" />
                     <img src={Exp_Icon.Other_Tech.sass} alt="Sass" />
                 </div>
                 <div className="experiences__container__header">

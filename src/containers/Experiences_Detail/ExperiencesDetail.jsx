@@ -95,7 +95,7 @@ const ExperiencesDetail = () => {
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
-                        Assist in coding for friends in KMITL and other
+                        Assist in coding for friends at KMITL and other
                         universities
                     </h1>
                     <p>
