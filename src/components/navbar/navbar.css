@@ -101,6 +101,10 @@
     margin: 1rem 0;
 }
 
+.navbar__menu__container p:after {
+    content: " >";
+}
+
 .navbar__menu__container p:hover {
     color: #ffe651;
     -webkit-animation: scale-down-center 0.2s
