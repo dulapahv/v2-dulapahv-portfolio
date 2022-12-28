@@ -16,7 +16,7 @@ const Prog_Lang = {
 const Other_Tech = {
     firebase: require("../../assets/Other_Tech/firebase.png"),
     git: require("../../assets/Other_Tech/git.png"),
-    sqlite: require("../../assets/Other_Tech/sqlite.png"),
+    mysql: require("../../assets/Other_Tech/mysql.png"),
     sass: require("../../assets/Other_Tech/sass.png"),
     tailwindcss: require("../../assets/Other_Tech/tailwind.png"),
     unity: require("../../assets/Other_Tech/unity.png"),
