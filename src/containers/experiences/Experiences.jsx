@@ -1,5 +1,5 @@
 import React from "react";
-import Exp_Icon from "./imports.js";
+import Exp_Icon from "./imports";
 import "./experiences.css";
 
 const Experiences = () => {
