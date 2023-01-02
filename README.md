@@ -1,4 +1,4 @@
-# dulapahv.github.io
+# dulapahv.me
 
 ## This is my personal website. It is built using HTML, CSS, JavaScript, and ReactJS. It is hosted on GitHub Pages
 
