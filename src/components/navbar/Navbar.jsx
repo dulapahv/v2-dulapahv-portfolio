@@ -50,8 +50,8 @@ const Navbar = () => {
         <div
             className={
                 isActive
-                    ? "navbar scale-up-bottom navbar-fixed"
-                    : "flex items-center justify-between h-12 my-0 mx-4 p-2 fixed inset-x-0 scale-up-bottom bg-[color:var(--gradient-bar)] rounded-[10px] top-6 z-2"
+                    ? "flex items-center justify-between h-12 my-0 p-2 inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] -z-35 scale-up-bottom ease-in-out duration-300 rounded-none m-0 fixed top-0"
+                    : "flex items-center justify-between h-12 my-0 mx-4 p-2 fixed inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] rounded-[10px] top-6 -z-35 scale-up-bottom ease-in-out duration-300"
             }
         >
             <div className="navbar__links--left">
