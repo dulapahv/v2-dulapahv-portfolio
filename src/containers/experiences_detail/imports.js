@@ -10,7 +10,7 @@ const Work_Exp = {
     TU: require("../../assets/Work_Exp/tu.png"),
     MU: require("../../assets/Work_Exp/mu.png"),
     KU: require("../../assets/Work_Exp/ku.png"),
-    CUHK: require("../../assets/Work_Exp/cuhk.png"),
+    KMUTNB: require("../../assets/Work_Exp/kmutnb.png"),
 };
 
 export default Work_Exp;

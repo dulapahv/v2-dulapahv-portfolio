@@ -100,7 +100,7 @@
 /* Fix the circle for containers on the right side */
 .right::after,
 .right-highlight::after {
-    left: -16px;
+    left: -17px;
 }
 
 /* The actual content */

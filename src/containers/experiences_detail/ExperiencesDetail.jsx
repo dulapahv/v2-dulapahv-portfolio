@@ -95,26 +95,16 @@ const ExperiencesDetail = () => {
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
-                        Assist in coding for friends in KMITL and other
-                        universities
+                        Teach coding to friends at KMITL and other universities
                     </h1>
                     <p>
-                        I assist in coding for friends at KMITL and other
+                        I teach coding to friends at KMITL and other
                         universities such as Chulalongkorn University, Thammasat
                         University, Mahidol University, Kasetsart University,
-                        The Chinese University of Hong Kong, etc. They all found
-                        themselves doing better in the university and performing
-                        better in the exam.
+                        King Mongkut's University of Technology North Bangkok,
+                        etc. They found themselves doing better in the
+                        university and performing better in the exam.
                     </p>
-                    <h4>
-                        <a
-                            href="https://github.com/dulapahv/ProblemSet/tree/main/Helping_Friend"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            View how I help my friend on Github {">"}
-                        </a>
-                    </h4>
                 </div>
                 <div className="experiences-detail__image--uni img--right">
                     <img src={Work_Exp.KMITL} alt="KMITL" />
@@ -122,7 +112,7 @@ const ExperiencesDetail = () => {
                     <img src={Work_Exp.TU} alt="TU" />
                     <img src={Work_Exp.MU} alt="MU" />
                     <img src={Work_Exp.KU} alt="KU" />
-                    <img src={Work_Exp.CUHK} alt="CUHK" />
+                    <img src={Work_Exp.KMUTNB} alt="KMUTNB" />
                 </div>
             </div>
         </>

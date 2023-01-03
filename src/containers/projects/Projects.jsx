@@ -25,7 +25,7 @@ const Projects = () => {
                     <Article
                         imgUrl={Projects_Img.blog02}
                         date="2021"
-                        title="Calclab"
+                        title="CalcLab"
                         description="All-in-one GUI application which includes: Scientific Calculator, Graph Plotter, Date Comparator, Currency Converter (real-time exchange rates), 12 More Converter Tools."
                         url="https://github.com/DulapahV/CalcLab"
                     />

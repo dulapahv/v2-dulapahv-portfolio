@@ -2,26 +2,46 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
 
-const Menu = () => (
-    <>
-        <p>
-            <a href="#aboutme">About Me</a>
-        </p>
-        <p>
-            <a href="#experiences">Experiences</a>
-        </p>
-        <p>
-            <a href="#projects">Projects</a>
-        </p>
-        <p>
-            <a href="#contact">Contact</a>
-        </p>
-    </>
-);
+const MenuItems = [
+    {
+        href: "#aboutme",
+        text: "About Me",
+    },
+    {
+        href: "#experiences",
+        text: "Experiences",
+    },
+    {
+        href: "#projects",
+        text: "Projects",
+    },
+    {
+        href: "#contact",
+        text: "Contact",
+    },
+];
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [isActive, setActive] = useState(false);
+
+    const Menu = () => {
+        return (
+            <>
+                {MenuItems.map((item, index) => (
+                    <p
+                        key={index}
+                        onClick={() => {
+                            setToggleMenu(false);
+                        }}
+                    >
+                        <a href={item.href}>{item.text}</a>
+                    </p>
+                ))}
+            </>
+        );
+    };
+
     document.addEventListener("scroll", () => {
         if (document.scrollingElement.scrollTop) setActive(true);
         else setActive(false);
@@ -67,11 +87,6 @@ const Navbar = () => {
                         onClick={() => setToggleMenu(true)}
                     />
                 )}
-                {document.querySelectorAll(".navbar p").forEach((item) => {
-                    item.addEventListener("click", () => {
-                        setToggleMenu(false);
-                    });
-                })}
                 {toggleMenu && (
                     <div className="navbar__menu__container scale-up-tr">
                         <Menu />
