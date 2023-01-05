@@ -1,32 +1,15 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import {
-    Header,
-    Aboutme,
-    Experiences,
-    ExperiencesDetail,
-    Projects,
-    Contact,
-    Footer,
-} from "./containers";
-import { Navbar, CTA } from "./components";
+import { Main, Test } from "./pages";
 import "./App.css";
 
 const App = () => {
     return (
-        <div className="App animate-bottom">
-            <div className="gradient_bg">
-                <Navbar />
-                <Header />
-            </div>
-            <Aboutme />
-            <Experiences />
-            <ExperiencesDetail />
-            <CTA />
-            <Projects />
-            <Contact />
-            <Footer />
-        </div>
+        <Routes>
+            <Route exact path="/" element={<Main />} />
+            <Route exact path="/gram-schmidt" element={<Test />} />
+        </Routes>
     );
 };
 

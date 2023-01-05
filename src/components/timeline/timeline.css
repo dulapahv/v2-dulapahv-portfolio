@@ -36,15 +36,17 @@
 }
 
 /* Container around content */
-.container {
-    padding: 5px 40px;
+.timeline__container__content {
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
     position: relative;
     background-color: inherit;
     width: 50%;
 }
 
 /* The circles on the timeline */
-.container::after {
+.timeline__container__content::after {
     content: "";
     position: absolute;
     width: 25px;
@@ -59,7 +61,7 @@
 
 /* Place the container to the left */
 .left {
-    left: -4px;
+    left: -8px;
 }
 
 /* Place the container to the right */
@@ -76,7 +78,7 @@
     top: 18px;
     width: 0;
     z-index: 1;
-    right: 30px;
+    right: 20px;
     border: medium solid var(--color-blog);
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent var(--color-blog);
@@ -100,7 +102,7 @@
 /* Fix the circle for containers on the right side */
 .right::after,
 .right-highlight::after {
-    left: -17px;
+    left: -13px;
 }
 
 /* The actual content */
@@ -131,14 +133,14 @@
     }
 
     /* Full-width containers */
-    .container {
+    .timeline__container__content {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
     /* Make sure that all arrows are pointing leftwards */
-    .container::before {
+    .timeline__container__content::before {
         left: 60px;
         border: medium solid var(--color-blog);
         border-width: 10px 10px 10px 0;
@@ -146,16 +148,19 @@
     }
 
     /* Make sure all circles are at the same spot */
-    .left::after,
     .right::after,
     .right-highlight::after {
-        left: 18px;
+        left: 27.8px;
+    }
+
+    .left::after {
+        left: 26.4px;
     }
 
     /* Make all right containers behave like the left ones */
     .right,
     .right-highlight {
-        left: -1%;
+        left: -2%;
     }
 
     .right-highlight::before {
