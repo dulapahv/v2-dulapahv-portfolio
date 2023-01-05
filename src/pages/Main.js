@@ -16,7 +16,6 @@ import "../App.css";
 const Main = () => {
     return (
         <div className="App animate-bottom">
-            <Link to="/gram-schmidt" className="text-blue-500 hover:text-blue-700 underline">DulapahV</Link>
             <div className="gradient_bg">
                 <Navbar />
                 <Header />
