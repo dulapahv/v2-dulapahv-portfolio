@@ -12,7 +12,7 @@ const ExperiencesDetail = () => {
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
-                        Official Teaching Assistance of KMITL in Rust
+                        Official Teaching Assistance of KMITL in Rust and C++
                         programming language
                     </h1>
                     <p>
