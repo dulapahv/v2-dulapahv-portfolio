@@ -64,6 +64,9 @@
 }
 
 @media screen and (max-width: 550px) {
+    .cta {
+        margin: 2rem;
+    }
     .cta__content h3 {
         font-size: 18px;
         line-height: 32px;

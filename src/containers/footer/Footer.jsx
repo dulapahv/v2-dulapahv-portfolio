@@ -95,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer__copyright">
-                <p>© 2022 Dulapah Vibulsanti</p>
+                <p>© 2023 Dulapah Vibulsanti</p>
             </div>
         </div>
     );

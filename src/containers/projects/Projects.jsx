@@ -24,17 +24,17 @@ const Projects = () => {
                 <div className="projects__container__groupB">
                     <Article
                         imgUrl={Projects_Img.blog02}
-                        date="2021"
-                        title="CalcLab"
-                        description="All-in-one GUI application which includes: Scientific Calculator, Graph Plotter, Date Comparator, Currency Converter (real-time exchange rates), 12 More Converter Tools."
-                        url="https://github.com/DulapahV/CalcLab"
+                        date="2022"
+                        title="Nekoparaiten"
+                        description="An (April Fool's) online speed-clicking game written in Python. Click as fast as possible while also competing with other people around the world!"
+                        url="https://github.com/DulapahV/Nekoparaiten"
                     />
                     <Article
                         imgUrl={Projects_Img.blog03}
                         date="2021"
-                        title="Nekoparaiten"
-                        description="An (April Fool's) online speed-clicking game written in Python. Click as fast as possible while also competing with other people around the world!"
-                        url="https://github.com/DulapahV/Nekoparaiten"
+                        title="CalcLab"
+                        description="All-in-one GUI application which includes: Scientific Calculator, Graph Plotter, Date Comparator, Currency Converter (real-time exchange rates), 12 More Converter Tools."
+                        url="https://github.com/DulapahV/CalcLab"
                     />
                     <Article
                         imgUrl={Projects_Img.blog04}

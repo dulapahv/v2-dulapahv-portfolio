@@ -11,7 +11,7 @@ const Aboutme = () => {
                     Hi! My name is Dulapah Vibulsanti and I am a software
                     engineer with a passion for building and creating intuitive,
                     user-friendly applications. I am currently studying in
-                    Bachelor's degree in Software Engineering from KMITL and
+                    bachelor's degree in Software Engineering from KMITL and
                     have since gained experience working in a variety of tasks
                     and events.
                     <br />

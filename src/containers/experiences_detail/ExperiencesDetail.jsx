@@ -12,12 +12,12 @@ const ExperiencesDetail = () => {
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
-                        Official Teaching Assistance of KMITL in Rust
-                        programming language
+                        Official Teaching Assistance of KMITL in Rust and C/C++
+                        programming languages
                     </h1>
                     <p>
                         I am the official Teaching Assistance of KMITL in Rust
-                        programming language for the KMITL freshmen.
+                        and C/C++ programming languages for the KMITL freshmen.
                         <br />I also helped create the Rust programming language
                         summary, which proved to be highly beneficial to the
                         students and resulted in more students understanding the
