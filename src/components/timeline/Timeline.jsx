@@ -14,7 +14,7 @@ const Timeline = () => {
                         </b>
                     </p>
                     <p className="black detail">
-                        Bachelor Degree in Software Engineering
+                        Bachelor's Degree in Software Engineering
                     </p>
                     <p className="black">
                         <b>42 Bangkok</b>
