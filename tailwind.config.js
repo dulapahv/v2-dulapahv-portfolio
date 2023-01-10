@@ -8,6 +8,8 @@ module.exports = {
             },
             animation: {
                 vibrate: "vibrate 0.3s linear infinite both",
+                "scale-up-center":
+                    "scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
             },
             keyframes: {
                 vibrate: {
@@ -28,6 +30,14 @@ module.exports = {
                     },
                     "100%": {
                         transform: "translate(0, 0)",
+                    },
+                },
+                "scale-up-center": {
+                    "0%": {
+                        transform: "scale(1)",
+                    },
+                    to: {
+                        transform: "scale(1.18)",
                     },
                 },
             },

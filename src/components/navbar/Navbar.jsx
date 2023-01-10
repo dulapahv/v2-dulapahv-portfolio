@@ -30,6 +30,7 @@ const Navbar = () => {
             <>
                 {MenuItems.map((item, index) => (
                     <p
+                        className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49] max-md:hidden"
                         key={index}
                         onClick={() => {
                             setToggleMenu(false);
@@ -50,20 +51,20 @@ const Navbar = () => {
         <div
             className={
                 isActive
-                    ? "flex items-center justify-between h-12 my-0 p-2 inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] -z-35 scale-up-bottom ease-in-out duration-300 rounded-none m-0 fixed top-0"
-                    : "flex items-center justify-between h-12 my-0 mx-4 p-2 fixed inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] rounded-[10px] top-6 -z-35 scale-up-bottom ease-in-out duration-300"
+                    ? "flex items-center justify-between h-[50px] my-0 p-2 inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] z-50 scale-up-bottom ease-in-out duration-300 rounded-none m-0 fixed top-0"
+                    : "flex items-center justify-between h-[50px] my-0 mx-4 p-2 fixed inset-x-0 bg-gradient-to-r from-[#ff548a] via-[#4cb5fd] to-[#9361ff] rounded-[10px] top-6 z-50 scale-up-bottom ease-in-out duration-300"
             }
         >
-            <div className="navbar__links--left">
-                <p>
-                    <a href="https://dulapahv.github.io/">{">"} DulapahV</a>
+            <div className="flex items-center justify-start">
+                <p className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49]">
+                    <a href="https://dulapahv.me/">{">"} DulapahV</a>
                 </p>
             </div>
-            <div className="navbar__links--middle">
+            <div className="flex items-center justify-center">
                 <Menu />
             </div>
-            <div className="navbar__links--right">
-                <p>
+            <div className="flex items-center justify-end">
+                <p className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49] max-md:hidden">
                     <a
                         href="https://github.com/dulapahv"
                         target="_blank"
@@ -73,7 +74,7 @@ const Navbar = () => {
                     </a>
                 </p>
             </div>
-            <div className="navbar__menu">
+            <div className="cursor-pointer hidden mr-2 relative max-md:flex">
                 {toggleMenu ? (
                     <RiCloseLine
                         color="#fff"
@@ -88,7 +89,7 @@ const Navbar = () => {
                     />
                 )}
                 {toggleMenu && (
-                    <div className="navbar__menu__container scale-up-tr">
+                    <div className="rounded flex flex-col items-end justify-end mt-4 p-8 absolute right-0 text-end top-[40px] min-w-[210px] shadow-2xl scale-up-tr">
                         <Menu />
                         <p>My Github</p>
                     </div>
