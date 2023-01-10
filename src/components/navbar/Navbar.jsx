@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import "./navbar.css";
 
 const MenuItems = [
     {
@@ -30,7 +29,12 @@ const Navbar = () => {
             <>
                 {MenuItems.map((item, index) => (
                     <p
-                        className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49] max-md:hidden"
+                        txt=" >"
+                        className={
+                            toggleMenu
+                                ? "font-manrope font-semibold text-lg leading-6 my-4 text-white after:content-[attr(txt)]  hover:animate-scale-up-center hover:text-[#ffcc49]"
+                                : "font-manrope my-0 mx-4 text-white hover:animate-scale-up-center hover:text-[#ffcc49] max-[800px]:hidden"
+                        }
                         key={index}
                         onClick={() => {
                             setToggleMenu(false);
@@ -56,15 +60,27 @@ const Navbar = () => {
             }
         >
             <div className="flex items-center justify-start">
-                <p className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49]">
+                <p className="font-manrope font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49]">
                     <a href="https://dulapahv.me/">{">"} DulapahV</a>
                 </p>
             </div>
-            <div className="flex items-center justify-center">
+            <div
+                className={
+                    toggleMenu
+                        ? "hidden"
+                        : "flex items-center justify-center font-manrope font-semibold text-lg leading-6 text-white capitalize mx-4"
+                }
+            >
                 <Menu />
             </div>
             <div className="flex items-center justify-end">
-                <p className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-0 mx-4 text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49] max-md:hidden">
+                <p
+                    className={
+                        toggleMenu
+                            ? "hidden"
+                            : "font-manrope font-semibold text-lg text-white capitalize hover:animate-scale-up-center hover:text-[#ffcc49] max-[800px]:hidden mx-4"
+                    }
+                >
                     <a
                         href="https://github.com/dulapahv"
                         target="_blank"
@@ -74,7 +90,7 @@ const Navbar = () => {
                     </a>
                 </p>
             </div>
-            <div className="cursor-pointer hidden mr-2 relative max-md:flex">
+            <div className="cursor-pointer hidden mr-2 relative max-[800px]:flex">
                 {toggleMenu ? (
                     <RiCloseLine
                         color="#fff"
@@ -89,9 +105,14 @@ const Navbar = () => {
                     />
                 )}
                 {toggleMenu && (
-                    <div className="rounded flex flex-col items-end justify-end mt-4 p-8 absolute right-0 text-end top-[40px] min-w-[210px] shadow-2xl scale-up-tr">
+                    <div className="rounded flex flex-col items-end justify-end mt-4 p-8 absolute right-0 text-end top-[40px] min-w-[210px] shadow-2xl scale-up-tr bg-slate-700 cursor-default">
                         <Menu />
-                        <p>My Github</p>
+                        <p
+                            txt=" >"
+                            className="font-manrope cursor-pointer font-semibold text-lg leading-6 my-4 text-white capitalize after:content-[attr(txt)] hover:animate-scale-up-center hover:text-[#ffcc49]"
+                        >
+                            My Github
+                        </p>
                     </div>
                 )}
             </div>
