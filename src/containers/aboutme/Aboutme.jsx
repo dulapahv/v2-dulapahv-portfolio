@@ -6,7 +6,7 @@ const Aboutme = () => {
     return (
         <div className="aboutme section_margin" id="aboutme">
             <div className="aboutme__heading">
-                <h1 className="gradient_text">Who I Am?</h1>
+                <h1 className="gradient_text font-manrope font-extrabold text-[38px] leading-[50px] w-[460px]">Who I Am?</h1>
                 <p>
                     Hi! My name is Dulapah Vibulsanti and I am a software
                     engineer with a passion for building and creating intuitive,
@@ -30,7 +30,7 @@ const Aboutme = () => {
                     my skills and knowledge in the field as a software engineer
                     and am excited to see where my career takes me next.
                 </p>
-                <h1 className="gradient_text">What Makes Me Unique?</h1>
+                <h1 className="gradient_text font-manrope font-extrabold text-[38px] leading-[50px] w-[460px]">What Makes Me Unique?</h1>
             </div>
             <div className="aboutme__container">
                 <Feature
@@ -47,7 +47,7 @@ const Aboutme = () => {
                 />
             </div>
             <div className="timeline__container">
-                <h1 className="gradient_text">
+                <h1 className="gradient_text font-manrope font-extrabold text-[38px] leading-[50px] w-[460px]">
                     My Path to Achieving a Better Education
                 </h1>
                 <div className="timeline__container--content">
