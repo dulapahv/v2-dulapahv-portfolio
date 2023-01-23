@@ -105,7 +105,7 @@ const Navbar = () => {
                     />
                 )}
                 {toggleMenu && (
-                    <div className="rounded flex flex-col items-end justify-end mt-4 p-8 absolute right-0 text-end top-[40px] min-w-[210px] shadow-2xl scale-up-tr bg-slate-700 cursor-default">
+                    <div className="rounded flex flex-col items-end justify-end mt-4 p-8 absolute right-0 text-end top-[40px] min-w-[210px] shadow-2xl scale-up-tr bg-gray-600 cursor-default">
                         <Menu />
                         <p
                             txt=" >"
