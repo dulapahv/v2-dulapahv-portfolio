@@ -56,7 +56,7 @@ const Navbar = () => {
         >
             <div className="navbar__links--left">
                 <p>
-                    <a href="https://dulapahv.github.io/">{">"} DulapahV</a>
+                    <a href="https://dulapahv.dev/">{">"} DulapahV</a>
                 </p>
             </div>
             <div className="navbar__links--middle">

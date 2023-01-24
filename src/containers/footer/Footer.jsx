@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer__links">
                 <div className="footer__links__heading">
                     <h1>
-                        <a href="https://dulapahv.github.io/">{">"} DulapahV</a>
+                        <a href="https://dulapahv.dev/">{">"} DulapahV</a>
                     </h1>
                 </div>
                 <div className="footer__links__div">
