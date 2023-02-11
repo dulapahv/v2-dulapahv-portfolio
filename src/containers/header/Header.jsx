@@ -13,7 +13,7 @@ const Header = () => {
                 </h1>
                 <p className="flip-in-hor-bottom">
                     A year 2 student in Software Engineering @{" "}
-                    <span className="header-content--kmitl">KMITL</span>,
+                    <span className="header-content--kmitl">KMITL International College</span>,
                     Bangkok
                     <br />
                     Cadet @{" "}
