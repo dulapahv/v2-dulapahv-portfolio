@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import profile_pic from "../../assets/profile_pic.png";
+import ImgAssets from "./import.js";
 
 const Header = () => {
     return (
@@ -26,7 +26,7 @@ const Header = () => {
                 </a>
             </div>
             <div className="header-image rotate-in-2-cw">
-                <img src={profile_pic} alt="profile_pic" />
+                <img src={ImgAssets.profile_pic} alt="profile_pic" />
             </div>
         </div>
     );

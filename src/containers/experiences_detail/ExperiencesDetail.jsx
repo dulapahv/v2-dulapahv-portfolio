@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Exp from "./imports";
+import ImgAssets from "./imports";
 import "./experiences_detail.css";
 
 const ExperiencesDetail = () => {
@@ -7,8 +7,8 @@ const ExperiencesDetail = () => {
         <>
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__image img--left">
-                    <img src={Work_Exp.TA1} alt="Rust TA 1" />
-                    <img src={Work_Exp.TA2} alt="Rust TA 2" />
+                    <img src={ImgAssets.TA1} alt="Rust TA 1" />
+                    <img src={ImgAssets.TA2} alt="Rust TA 2" />
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
@@ -56,14 +56,14 @@ const ExperiencesDetail = () => {
                     </h4>
                 </div>
                 <div className="experiences-detail__image img--right">
-                    <img src={Work_Exp.Bangkok1} alt="Rust TA 1" />
-                    <img src={Work_Exp.Bangkok2} alt="Rust TA 2" />
+                    <img src={ImgAssets.Bangkok1} alt="Rust TA 1" />
+                    <img src={ImgAssets.Bangkok2} alt="Rust TA 2" />
                 </div>
             </div>
             <div className="experiences-detail section_padding">
                 <div className="experiences-detail__image img--left">
-                    <img src={Work_Exp.PreSession1} alt="Rust TA 1" />
-                    <img src={Work_Exp.PreSession2} alt="Rust TA 2" />
+                    <img src={ImgAssets.PreSession1} alt="Rust TA 1" />
+                    <img src={ImgAssets.PreSession2} alt="Rust TA 2" />
                 </div>
                 <div className="experiences-detail__content">
                     <h1 className="gradient_text">
@@ -107,12 +107,12 @@ const ExperiencesDetail = () => {
                     </p>
                 </div>
                 <div className="experiences-detail__image--uni img--right">
-                    <img src={Work_Exp.KMITL} alt="KMITL" />
-                    <img src={Work_Exp.CU} alt="CU" />
-                    <img src={Work_Exp.TU} alt="TU" />
-                    <img src={Work_Exp.MU} alt="MU" />
-                    <img src={Work_Exp.KU} alt="KU" />
-                    <img src={Work_Exp.KMUTNB} alt="KMUTNB" />
+                    <img src={ImgAssets.KMITL} alt="KMITL" />
+                    <img src={ImgAssets.CU} alt="CU" />
+                    <img src={ImgAssets.TU} alt="TU" />
+                    <img src={ImgAssets.MU} alt="MU" />
+                    <img src={ImgAssets.KU} alt="KU" />
+                    <img src={ImgAssets.KMUTNB} alt="KMUTNB" />
                 </div>
             </div>
         </>
