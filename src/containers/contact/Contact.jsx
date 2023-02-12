@@ -22,8 +22,8 @@ const Contact = () => {
                 />
                 <Card
                     icon={<MdAlternateEmail color="#fff" size={38} />}
-                    content="dulapah6@gmail.com"
-                    url="mailto:dulapah6@gmail.com"
+                    content="contact@dulapahv.dev"
+                    url="mailto:contact@dulapahv.dev"
                 />
                 <Card
                     icon={<FaLinkedin color="#fff" size={38} />}

@@ -70,8 +70,8 @@ const Footer = () => {
                         <a href="tel:+66819085657">+66 81-908-5657</a>
                     </p>
                     <p>
-                        <a href="mailto:dulapah6@gmail.com">
-                            dulapah6@gmail.com
+                        <a href="mailto:contact@dulapahv.dev">
+                            contact@dulapahv.dev
                         </a>
                     </p>
                     <p>
