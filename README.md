@@ -1,9 +1,15 @@
-# [dulapahv.dev](https://dulapahv.dev/)
+# Portfolio Website (v2)
 
-## This is my personal website. It is built using HTML, CSS, JavaScript, ReactJS, and TailwindCSS. It is hosted on GitHub Pages
+[Visit the second version of my portfolio website](https://v2.dulapahv.dev/)
 
-### Go to [`gh-pages`](https://github.com/dulapahv/dulapahv.github.io/tree/gh-pages) branch to see the deployment code
+**Note: This version will not receive further updates.**
 
-This website is actually the second version of the website ([old website](https://github.com/dulapahv/PracticeCoding/tree/main/old_website/old_website_3_Stable))
+This version was created using React.js, HTML, CSS, and JavaScript.
 
-This project makes me much more familiar with HTML, CSS, JS, ReactJS. Furthermore, I am learning to incorporate TailwindCSS, Sass, and Typescript into my website development.
+---
+
+## Latest Portfolio Website
+
+[Visit my latest portfolio website](https://dulapahv.dev)
+
+For the latest updates and repository, check out [GitHub](https://github.com/dulapahv/dulapahv-portfolio).
