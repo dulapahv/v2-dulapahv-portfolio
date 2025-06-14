@@ -48,11 +48,10 @@ const Navbar = () => {
     });
     return (
         <div
-            className={
-                isActive
+            className={`mt-12 ${isActive
                     ? "navbar scale-up-bottom navbar-fixed"
                     : "navbar scale-up-bottom"
-            }
+            }`}
         >
             <div className="navbar__links--left">
                 <p>
